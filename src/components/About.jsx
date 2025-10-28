@@ -8,7 +8,7 @@ export default function AboutSection() {
         {/* Left: Image */}
         <div className="relative group overflow-hidden rounded-2xl shadow-[0_0_30px_#E1912F40]">
           <img
-            src="/i1.jpg"
+            src="/image.png"
             alt="Fitness training"
             className="rounded-2xl w-full object-cover h-[420px] md:h-[500px] transform group-hover:scale-105 transition-all duration-700 ease-in-out"
           />

@@ -9,7 +9,7 @@ export default function GetInTouch() {
         <div className="w-full md:w-[45%] flex justify-center md:justify-end">
           <div className="relative w-full h-[200px] md:h-[220px] rounded-2xl overflow-hidden shadow-[0_0_35px_rgba(0,0,0,0.6)] border border-[#1a1a1a]">
             <img
-              src="/i3.webp"
+              src="/12.webp"
               alt="Gym Interior"
               className="w-full h-full object-cover object-center rounded-2xl"
             />

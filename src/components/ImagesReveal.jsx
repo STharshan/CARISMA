@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    src: "/i6.webp",
-    title: "HIIT RUSH",
+    src: "/i3.png",
+    //title: "HIIT RUSH",
   },
   {
-    src: "/i5.webp",
-    title: "COMBATLINE",
+    src: "/i4.png",
+    //title: "COMBATLINE",
   },
   {
-    src: "/i4.webp",
-    title: "POWERLIFT",
+    src: "/image.png",
+    //title: "POWERLIFT",
   },
   {
-    src: "/i3.webp",
-    title: "ZEN FLOW",
+    src: "/i1.jpg",
+    //title: "ZEN FLOW",
   },
 ];
 

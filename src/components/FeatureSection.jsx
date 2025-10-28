@@ -14,7 +14,7 @@ export default function FeatureSection() {
       content:
         "Certified pros who train smart and push hard – with you, not above you.",
       image:
-        "/i3.webp",
+        "/12.webp",
       icon: <Dumbbell className="text-orange-500 w-6 h-6" />,
     },
     {
@@ -23,7 +23,7 @@ export default function FeatureSection() {
       content:
         "Sweat-dripping, heart-pounding workouts that keep you coming back.",
       image:
-        "/i4.webp",
+        "/i1.jpg",
       icon: <Flame className="text-orange-500 w-6 h-6" />,
     },
     {
@@ -31,7 +31,7 @@ export default function FeatureSection() {
       title: "Goal Oriented Training",
       content: "Whether it’s weight loss or muscle gain, we train with a plan.",
       image:
-        "/i5.webp",
+        "/image.png",
       icon: <Target className="text-orange-500 w-6 h-6" />,
     },
     {
