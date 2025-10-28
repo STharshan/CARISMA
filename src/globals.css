@@ -1,0 +1,93 @@
+:root {
+  /* ===== Brand Colors ===== */
+  --brand-primary: #e1912f; /* Ochre Orange */
+  --brand-secondary: #1c3b45; /* Deep Blue */
+
+  /* ===== Text Colors ===== */
+  --text-main: #ffffff;
+  --text-muted: #cfcfcf;
+  --text-accent: var(--brand-primary);
+
+  /* ===== Background Colors ===== */
+  --bg-main: #000000;
+  --bg-light: #111111;
+  --bg-gradient-start: rgba(0, 0, 0, 0.9);
+  --bg-gradient-end: rgba(0, 0, 0, 0.4);
+
+  /* ===== Navbar Colors ===== */
+  --nav-bg: transparent;
+  --nav-bg-scrolled: rgba(0, 0, 0, 0.85);
+  --nav-text: var(--text-main);
+  --nav-hover: var(--brand-primary);
+
+  /* ===== Button Colors ===== */
+  --btn-bg-start: var(--brand-primary);
+  --btn-bg-end: var(--brand-secondary);
+  --btn-text: #ffffff;
+  --btn-hover-bg: #ffffff;
+  --btn-hover-text: #000000;
+  --btn-hover-shadow: 0 0 20px rgba(225, 145, 47, 0.6);
+
+  /* ===== Border Colors ===== */
+  --border-main: var(--brand-primary);
+  --border-light: rgba(255, 255, 255, 0.1);
+
+  /* ===== Misc Effects ===== */
+  --shadow-soft: 0 4px 20px rgba(225, 145, 47, 0.3);
+  --transition-fast: all 0.3s ease;
+}
+
+/* ===== Optional: Dark Mode ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-main: #0b0b0b;
+    --text-main: #ffffff;
+    --text-muted: #bfbfbf;
+  }
+}
+
+/* ===== Base Styles ===== */
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: var(--transition-fast);
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+  background-image: linear-gradient(
+    to right,
+    var(--btn-bg-start),
+    var(--btn-bg-end)
+  );
+  color: var(--btn-text);
+  border: none;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  box-shadow: none;
+  transition: var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-hover-text);
+  box-shadow: var(--btn-hover-shadow);
+  transform: scale(1.05);
+}
+
+/* ===== Text Helpers ===== */
+.text-accent {
+  color: var(--text-accent);
+}
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* ===== Utility ===== */
+.border-main {
+  border-color: var(--border-main);
+}
